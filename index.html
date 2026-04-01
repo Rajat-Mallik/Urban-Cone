@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Urban Cone 🍨</title>
+
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- 🔥 NAVBAR -->
+<header class="navbar">
+  <div class="logo">Urban Cone 🍨</div>
+
+  <nav id="nav-links">
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#download">App</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div id="hamburger">☰</div>
+</header>
+
+<!-- 🍨 HERO (NO ANIMATION NOW) -->
+<section id="home" class="hero">
+  <img src="https://i.ibb.co/4nvH6nfx/Chat-GPT-Image-Apr-1-2026-10-22-48-PM.png" class="hero-img">
+  <div class="hero-text">
+    <h1>Undeniably Creamy</h1>
+    <p>Pure happiness in every scoop 🍦</p>
+  </div>
+</section>
+
+<!-- 🎯 FILTER -->
+<section class="filters">
+  <button onclick="filterItems('all')">All</button>
+  <button onclick="filterItems('healthy')">Healthy</button>
+  <button onclick="filterItems('deal')">Deals</button>
+  <button onclick="filterItems('birthday')">Birthday</button>
+</section>
+
+<!-- 🍨 MENU -->
+<section id="menu" class="menu">
+
+  <!-- HEALTHY -->
+  <div class="card" data-category="healthy">
+    <img src="https://www.baltana.com/files/wallpapers-18/Mint-Ice-Cream-HD-Wallpapers-46808.jpg">
+    <h3>Mint Fresh</h3>
+  </div>
+
+  <div class="card" data-category="healthy">
+    <img src="https://images.unsplash.com/photo-1570197571499-166b36435e9f">
+    <h3>Fruit Mix</h3>
+  </div>
+
+  <div class="card" data-category="healthy">
+    <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/06/homemade-ice-cream-recipe-580x800.jpg">
+    <h3>Low Sugar Vanilla</h3>
+  </div>
+
+  <div class="card" data-category="healthy">
+    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb">
+    <h3>Organic Cream</h3>
+  </div>
+
+  <!-- DEALS -->
+  <div class="card" data-category="deal">
+    <img src="https://www.baltana.com/files/wallpapers-18/Chocolate-Ice-Cream-HD-Desktop-Wallpaper-46571.jpg">
+    <h3>Choco Combo</h3>
+  </div>
+
+  <div class="card" data-category="deal">
+    <img src="https://www.baltana.com/files/wallpapers-18/Rocky-Road-Ice-Cream-HD-Wallpapers-46882.jpeg">
+    <h3>Double Scoop</h3>
+  </div>
+
+  <div class="card" data-category="deal">
+    <img src="https://5.imimg.com/data5/HW/AV/MY-43970224/chocolate-ice-cream-family-pack-1000x1000.jpg">
+    <h3>Family Pack</h3>
+  </div>
+
+  <div class="card" data-category="deal">
+    <img src="https://images.unsplash.com/photo-1560008581-09826d1de69e">
+    <h3>Weekend Offer</h3>
+  </div>
+
+  <!-- BIRTHDAY -->
+  <div class="card" data-category="birthday">
+    <img src="https://www.baltana.com/files/wallpapers-18/Cookie-Dough-Ice-Cream-High-Definition-Wallpaper-46626.jpg">
+    <h3>Party Tub</h3>
+  </div>
+
+  <div class="card" data-category="birthday">
+    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+    <h3>Birthday Special</h3>
+  </div>
+
+  <div class="card" data-category="birthday">
+    <img src="https://images.unsplash.com/photo-1527515545081-5db817172677">
+    <h3>Celebration Pack</h3>
+  </div>
+
+  <div class="card" data-category="birthday">
+    <img src="https://i.pinimg.com/736x/b3/24/78/b32478f56eaf63bedf44454fb5744f66.jpg">
+    <h3>Custom Cake Ice Cream</h3>
+  </div>
+
+</section>
+
+<!-- 📖 ABOUT -->
+<section id="about" class="about">
+  <h2>About Urban Cone</h2>
+  <p>
+    Founded by two college dreamers, our ice cream startup blends creativity and quality to craft bold, delicious flavors.<br> We serve joy in every scoop, turning everyday moments into unforgettable, sweet experiences.
+
+  </p>
+</section>
+
+<!-- 📱 DOWNLOAD -->
+<section id="download" class="download">
+  <h2>Get Urban Cone App</h2>
+  <p>Order your favorite flavors anytime 🍨</p>
+
+  <div class="store-buttons">
+
+    <div class="store-btn">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Google Play">
+      <div>
+        <span>GET IT ON</span>
+        <h3>Google Play</h3>
+      </div>
+    </div>
+
+    <div class="store-btn">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" alt="App Store">
+      <div>
+        <span>Download on the</span>
+        <h3>App Store</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 📩 CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-container">
+
+    <!-- INFO -->
+    <div class="contact-info">
+      <h3>Our Team</h3>
+      <p><strong>Harishankar</strong><br>📞 +91 8826546914<br>📧 iihm23dl0650_hari@iihm.ac.in</p>
+      <p><strong>Ankit</strong><br>📞 +91 9503180034<br>📧 iihm23dl018_ankit@iihm.ac.in</p>
+
+      <h3>Address</h3>
+      <p>Urban Cone Store<br>New Delhi, India</p>
+    </div>
+
+    <!-- FORM -->
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- 🔻 FOOTER -->
+<footer>
+  <p>© 2026 Urban Cone | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
